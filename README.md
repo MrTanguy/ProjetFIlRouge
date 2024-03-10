@@ -1,4 +1,4 @@
-# Jeu De La Vie
+# Projet Fil Rouge
 
 ## Prérequis
 Avant de lancer le projet, assurez-vous d'avoir les éléments suivants installés sur votre machine :
@@ -7,7 +7,7 @@ Avant de lancer le projet, assurez-vous d'avoir les éléments suivants install�
 
 ## Lancement du Projet
 Voici les étapes pour lancer le projet sur votre machine :
-1. **Clonez le Dépôt Git :** Utilisez la commande `git clone https://github.com/MrTanguy/JeuDeLaVie.git` pour cloner le dépôt Git sur votre machine locale.
+1. **Clonez le Dépôt Git :** Utilisez la commande `git clone https://github.com/MrTanguy/ProjetFilRouge.git` pour cloner le dépôt Git sur votre machine locale.
 2. **Démarrage de Docker Compose :** Naviguez jusqu'au répertoire du projet et exécutez la commande `docker-compose up` pour démarrer le conteneur Docker contenant la base de données MySQL.
 3. **Lancement de l'Application :** Ouvrez le projet dans votre environnement de développement C# et lancez l'application.
 
