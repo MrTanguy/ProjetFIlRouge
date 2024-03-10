@@ -1,0 +1,18 @@
+﻿<Window x:Class="ProjetFilRouge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetFilRouge"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ContentControl x:Name="ContenuPrincipal" Grid.Row="1" >
+            <Grid>
+                <Label Content="Bienvenu&#xD;&#xA;" HorizontalAlignment="Center" VerticalAlignment="Top" Width="Auto" Height="Auto" FontSize="30"/>
+                <Button Content="Se connecter" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,50" Click="Connect_Click"/>
+                <Button Content="S'enregistrer" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,50,0,0" Click="Register_Click"/>
+            </Grid>
+        </ContentControl>
+    </Grid>
+</Window>

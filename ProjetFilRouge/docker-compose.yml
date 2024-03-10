@@ -1,0 +1,23 @@
+﻿version: '3'
+
+services:
+  mysql-db:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_DATABASE=socket
+    volumes:
+      - ./BDD/request/create.sql:/docker-entrypoint-initdb.d/init.sql
+    env_file:
+      - .env
+    hostname: mysql.docker
+    networks:
+      - my_network
+    ports:
+      - "3306:3306"
+
+networks:
+  my_network:
+    driver: bridge
