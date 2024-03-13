@@ -35,3 +35,6 @@ L'application offre 3 environnements de développements prod/quali/dev afin de p
 Elle offre aussi des tests unitaires dans l'onglet ProjetFilRougeTests.
 
 Concernant la pipeline sur Jenkins, je n'ai pas réussi à la faire fonctionner avec un projet en C#.
+
+Lien vers la documentation technique : https://docs.google.com/document/d/1OzOVMb_jLJG_0mY7SSQv-4a-1wnjNPaIWhdvS_4xZvs/edit?usp=sharing
+
