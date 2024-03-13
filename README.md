@@ -30,3 +30,8 @@ L'application offre les fonctionnalités suivantes :
 - Offre la possibilité de modifier les règles du jeu de la vie en utilisant une commande spéciale `/ALIVE=X` (X est un chiffre entre 0 et 8).
 - Les utilisateurs peuvent expérimenter différentes configurations pour créer des scénarios uniques et intéressants.
 
+## Développement
+L'application offre 3 environnements de développements prod/quali/dev afin de pouvoir réaliser de multiples tests avant de déployer en production.
+Elle offre aussi des tests unitaires dans l'onglet ProjetFilRougeTests.
+
+Concernant la pipeline sur Jenkins, je n'ai pas réussi à la faire fonctionner avec un projet en C#.
